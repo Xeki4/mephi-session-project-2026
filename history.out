@@ -1,0 +1,34 @@
+    1  whoami
+    2  sudo -l
+    3  groupadd students
+    4  su groupadd students
+    5  sudo groupadd students
+    6  sudo useradd -u 1234 user1
+    7  sudo usermod -aG students user1 
+    8  sudo passwd user1 
+    9  sudo chage -M 90 user1 
+   10  id user1 
+   11  sudo chage -l user1 
+   12  sudo find / -perm -4000 -type f 2>/dev/null
+   13  ps -eo pid,riud,euid,comm | awk 'NR==1 || ($3 == 0 && $2 !=0)'
+   14  ps -eo pid,ruid,euid,comm | awk 'NR==1 || ($3 == 0 && $2 !=0)'
+   15  sudo cp /bin/mkdir /home/user1/mymkdir
+   16  sudo chown root:root /home/user1/mymkdir
+   17  sudo chmod u+s /home/user1/mymkdir
+   18  ls -l /home/user1/mymkdir
+   19  sudo ls -l /home/user1/mymkdir
+   20  su - user1
+   21  sudo ls -l /root
+   22  sudo cp /bin/chmod /home/user1/mychmod
+   23  sudo chmod u-s /home/user1/mychmod
+   24  sudo setcap_fowner+ep /home/user1/mychmod
+   25  sudo setcap cap_fowner+ep /home/user1/mychmod
+   26  sudo ls -l /home/user1/mychmod
+   27  getcap /home/user1/mychmod
+   28  sudo getcap /home/user1/mychmod
+   29  su - user1
+   30  sudo touch /tmp/root_file.txt
+   31  su - user1 
+   32  sudo visudo -f /etc/sudoers.d/user1_time
+   33  su - user1 
+   34  history > ~/history.out
