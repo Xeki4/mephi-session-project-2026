@@ -1,1 +1,1 @@
-/home/user1/mychmod cap_fowner=ep
+/usr/sbin/tcpdump cap_net_admin,cap_net_raw=eip

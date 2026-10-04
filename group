@@ -66,3 +66,7 @@ systemd-timesync:x:981:
 xeki4:x:1000:
 students:x:1001:user1
 user1:x:1234:
+nginx:x:980:
+curators:x:4444:
+user2:x:5502:
+user3:x:5503:

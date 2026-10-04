@@ -1,0 +1,9 @@
+Иденти | Командная строка                   | Дата и время     | Действия       | Изменен
+-----------------------------------------------------------------------------------------
+     7 | install -y nginx libcap-ng-utils   | 2026-10-04 14:51 | Install        |    5   
+     6 | update -y                          | 2026-10-04 14:42 | I, O, U        |  269 EE
+     5 | install -y audit audispd-plugins   | 2026-10-04 14:12 | Install        |    1   
+     4 | reinstall git                      | 2026-09-12 17:26 | R              |    2  <
+     3 | autoremove -y --setopt=metadata_ex | 2026-09-12 15:35 | Removed        |    1 ><
+     2 | remove -y --setopt=metadata_expire | 2026-09-12 15:33 | Removed        |    2 >E
+     1 |                                    | 2026-09-12 15:18 | Install        | 1848 EE
